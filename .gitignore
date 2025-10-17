@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# Don't ignore directories so negated patterns can match files inside them
+!*/
+
+# Don't ignore Python files and Jupyter notebooks
+!*.py
+!*.ipynb
+
+# Keep this .gitignore tracked
+!.gitignore
